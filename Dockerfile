@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ENV MONGO_VERSION=3.4.10-r0
+ENV MONGO_VERSION=3.6.12
 ENV DB_PATH=/data/db DB_CONFIG=/data/configdb
 
 # Install MongoDB
